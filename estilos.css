@@ -1,0 +1,109 @@
+body{
+    background-color: #a2d8ff;
+    font-family: tahoma;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: #23819C;
+    font-size: 45px;
+    border-color: #0a4372;
+    background-color: #002047;
+    border-radius: 20px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+h3{
+    font-family: verdana;
+    margin-left: 20px;
+}
+
+h4{
+    padding: 4px;
+}
+
+a{
+    padding: 6px;
+}
+
+.div2{
+    background-color: #C9EAF3;
+    border-radius: 20px;
+}
+
+.img2 {
+    border-radius: 10px;
+}
+
+p{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.proyecto {
+    display: flex;
+    align-items: center;
+}
+
+.proyecto img {
+    margin-left: 100px;
+    width: 300px;
+    height: 112px;
+    justify-self: right;
+    align-self: flex-start;
+    border-radius: 20px;
+}
+
+caption{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li{
+    padding-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cantantes{
+    background-color: #0a4372;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.foto {
+    width: 100%; /* Ajustar el ancho de la imagen al contenedor */
+    max-width: 300px; /* Establecer un ancho máximo */
+    height: auto; /* Mantener la proporción de aspecto */
+    border-radius: 20px;
+}
+
+.red-social {
+    margin-bottom: 10px;
+}
+
+.red-social a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #405de6; /* Color de Facebook */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.red-social a:hover {
+    background-color: #bd0505; /* Cambia el color al pasar el ratón */
+}
+
+.red-social:nth-child(odd) a {
+    background-color: #405de6; /* Cambia el color de Instagram */
+}
+
+.red-social:nth-child(odd) a:hover {
+    background-color: #bd0505; /* Cambia el color al pasar el ratón */
+}
