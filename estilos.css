@@ -77,9 +77,9 @@ li{
 }
 
 .foto {
-    width: 100%; /* Ajustar el ancho de la imagen al contenedor */
-    max-width: 300px; /* Establecer un ancho máximo */
-    height: auto; /* Mantener la proporción de aspecto */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
     border-radius: 20px;
 }
 
@@ -90,20 +90,20 @@ li{
 .red-social a {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #405de6; /* Color de Facebook */
+    background-color: #405de6; 
     color: #fff;
     text-decoration: none;
     border-radius: 20px;
 }
 
 .red-social a:hover {
-    background-color: #bd0505; /* Cambia el color al pasar el ratón */
+    background-color: #bd0505; 
 }
 
 .red-social:nth-child(odd) a {
-    background-color: #405de6; /* Cambia el color de Instagram */
+    background-color: #405de6; 
 }
 
 .red-social:nth-child(odd) a:hover {
-    background-color: #bd0505; /* Cambia el color al pasar el ratón */
+    background-color: #bd0505; 
 }
