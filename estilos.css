@@ -1,8 +1,10 @@
+/* Define el color de fondo del cuerpo de la página y la fuente predeterminada */
 body{
     background-color: #a2d8ff;
     font-family: tahoma;
 }
 
+/* Estilo para el encabezado principal */
 h1 {
     font-family:'Times New Roman', Times, serif;
     color: #23819C;
@@ -12,43 +14,52 @@ h1 {
     border-radius: 20px;
 }
 
+/* Estilo para el subtítulo de la sección de proyectos */
 h2{
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
 }
 
+/* Estilo para los encabezados de los proyectos */
 h3{
     font-family: verdana;
     margin-left: 20px;
 }
 
+/* Estilo para los subtítulos de las secciones */
 h4{
     padding: 4px;
 }
 
+/* Estilo para los enlaces */
 a{
     padding: 6px;
 }
 
+/* Estilo para el div de la sección acerca del usuario */
 .div2{
     background-color: #C9EAF3;
     border-radius: 20px;
 }
 
+/* Estilo para las imágenes dentro de la sección acerca del usuario */
 .img2 {
     border-radius: 10px;
 }
 
+/* Estilo para los párrafos */
 p{
     margin-left: 30px;
     font-size: 18px;
 }
 
+/* Estilo para el contenedor de los proyectos */
 .proyecto {
     display: flex;
     align-items: center;
 }
 
+/* Estilo para las imágenes dentro del contenedor de los proyectos */
 .proyecto img {
     margin-left: 100px;
     width: 300px;
@@ -58,16 +69,19 @@ p{
     border-radius: 20px;
 }
 
+/* Estilo para los subtítulos de las tablas */
 caption{
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Estilo para los elementos de las listas */
 li{
     padding-left: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Estilo para el contenedor de la sección de cantantes favoritos */
 .cantantes{
     background-color: #0a4372;
     color: #ffffff;
@@ -76,6 +90,7 @@ li{
     margin-top: 10px;
 }
 
+/* Estilo para las fotos */
 .foto {
     width: 100%; 
     max-width: 300px; 
@@ -83,10 +98,12 @@ li{
     border-radius: 20px;
 }
 
+/* Estilo para el contenedor de las redes sociales */
 .red-social {
     margin-bottom: 10px;
 }
 
+/* Estilo para los enlaces dentro del contenedor de redes sociales */
 .red-social a {
     display: inline-block;
     padding: 8px 16px;
@@ -96,14 +113,17 @@ li{
     border-radius: 20px;
 }
 
+/* Estilo para el enlace de la red social al pasar el ratón por encima */
 .red-social a:hover {
     background-color: #bd0505; 
 }
 
+/* Estilo alternativo para los enlaces impares de redes sociales */
 .red-social:nth-child(odd) a {
     background-color: #405de6; 
 }
 
+/* Estilo para el enlace de la red social al pasar el ratón por encima */
 .red-social:nth-child(odd) a:hover {
     background-color: #bd0505; 
 }
